@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1442468328 source:e:\cpp_programming\projects\hangman\guessingmethods.cpp
+
+1442984041 source:e:\cpp_programming\projects\hangman\hangmandata.cpp
+	<iostream>
+
+1443589010 source:e:\cpp_programming\projects\hangman\main.cpp
+	<iostream>
+	"HangmanIO.h"
+	"HangmanProcessing.h"
+
+1442984041 e:\cpp_programming\projects\hangman\hangmandata.cpp
+	<iostream>
+
+1443417162 e:\cpp_programming\projects\hangman\include\hangmanio.h
+
+1443413281 e:\cpp_programming\projects\hangman\include\hangmanprocessing.h
+
+1443417823 e:\cpp_programming\projects\hangman\include\hangmaninput.h
+
+1443588206 source:e:\cpp_programming\projects\hangman\src\hangmanio.cpp
+	<iostream>
+	"HangmanIO.h"
+
+1443594603 source:e:\cpp_programming\projects\hangman\src\hangmanprocessing.cpp
+	<iostream>
+	"HangmanIO.h"
+	"HangmanProcessing.h"
+
+1443419332 source:e:\cpp_programming\projects\hangman\src\hangmanutils.cpp
+	<iostream>
+	"HangmanUtils.h"
+
+1443419354 e:\cpp_programming\projects\hangman\include\hangmanutils.h
+
