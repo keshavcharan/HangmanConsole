@@ -1,12 +1,14 @@
 #include <iostream>
+#include <vector>
 #include "HangmanIO.h"
 #include "HangmanProcessing.h"
 
     using namespace std;
     HangmanIO hangmanIO;
     char wrongletter[5] = {'_','_','_','_','_'};
-    char citydisplay[20];
+    vector<char> citydisplay;
     bool gameover =false;
+    bool cityinitialized = false;
     int count = 0;
     int citycount = 0;
     char* city;
@@ -19,6 +21,11 @@
         city = cityname;
         bool letterexists = false;
         int length = hangmanIO.getCityLength();
+        if(!cityinitialized)
+        {
+            citydisplay = vector<char>(length,0);
+            cityinitialized = true;
+        }
         for(int i = 0; i < length; i++)
         {
             if(letter == 0)

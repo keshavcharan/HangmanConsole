@@ -4,7 +4,7 @@
 1442984041 source:e:\cpp_programming\projects\hangman\hangmandata.cpp
 	<iostream>
 
-1443589010 source:e:\cpp_programming\projects\hangman\main.cpp
+1443594666 source:e:\cpp_programming\projects\hangman\main.cpp
 	<iostream>
 	"HangmanIO.h"
 	"HangmanProcessing.h"
@@ -22,8 +22,9 @@
 	<iostream>
 	"HangmanIO.h"
 
-1443594603 source:e:\cpp_programming\projects\hangman\src\hangmanprocessing.cpp
+1443940219 source:e:\cpp_programming\projects\hangman\src\hangmanprocessing.cpp
 	<iostream>
+	<vector>
 	"HangmanIO.h"
 	"HangmanProcessing.h"
 
